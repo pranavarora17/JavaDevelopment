@@ -27,5 +27,9 @@ public class Class1 {
          * char c = 'k';
          * boolean bo = true;
          */
+
+        char c = 'a';
+        c ++ ;
+        System.out.println(c);
     }
 }
