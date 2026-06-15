@@ -5,21 +5,21 @@ class Student{
 }
 public class Class9 {
     public static void main(String[] args) {
-        Student s1 = new Student();
-        s1.rollNo = 1;
-        s1.name = "Navin";s1.marks = 88;
-
-       Student s2 = new Student();
-        s2.rollNo = 2;
-        s2.name = "Harsh";
-        s2.marks = 77;
-
-        Student s3 = new Student();
-        s3.rollNo = 1;
-        s3.name = "Kiran";
-        s3.marks = 67;
+//        Student s1 = new Student();
+//        s1.rollNo = 1;
+//        s1.name = "Navin";s1.marks = 88;
 //
-        Student[] student = new Student[3];
+//       Student s2 = new Student();
+//        s2.rollNo = 2;
+//        s2.name = "Harsh";
+//        s2.marks = 77;
+//
+//        Student s3 = new Student();
+//        s3.rollNo = 1;
+//        s3.name = "Kiran";
+//        s3.marks = 67;
+//
+        // Student[] student = new Student[3];
 //        student[0] = s1;
 //        student[1] = s2;
 //        student[2] = s3;
@@ -37,5 +37,21 @@ public class Class9 {
 //        for (int x : nums) {
 //            System.out.print(x + " ");
 //        }
+
+//        String name = "Texting";
+
+//        String name = new String("Navin");
+//        System.out.println("Hello " + name);
+//        System.out.println(name.concat(" reddy"));
+//
+//        String s1 = "Navin";
+//        String s2 = "Navin";
+//
+//        System.out.println(s1==s2);
+
+        StringBuffer sb = new StringBuffer("Navin");
+        System.out.println(sb.capacity());
+        sb.append(" Reddy");
+        System.out.println(sb);
     }
 }
