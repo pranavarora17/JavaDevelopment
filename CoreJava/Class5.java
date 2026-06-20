@@ -1,4 +1,4 @@
-public class Class5{
+public class Class5 {
     public static void main(String[] args) {
         //repeat statement
         // loop - for,do-while,while
@@ -14,10 +14,11 @@ public class Class5{
 //            System.out.println("Hi");
 //        } while (i <= 4);
 //    }
-        for(int i=1;i<=5;i++){
+        for (int i = 1; i <= 5; i++) {
             System.out.println("DAY " + i);
-            for(int j = 9;j<=6;j++){
+            for (int j = 1; j <= 6; j++) {
                 System.out.println(j);
             }
         }
+    }
 }

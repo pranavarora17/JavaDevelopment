@@ -1,5 +1,5 @@
-class A{
-    public A(){
+class ABC{
+    public ABC(){
         System.out.println("Object created");
     }
     public void show(){
@@ -8,8 +8,8 @@ class A{
 }
 class Class12{
     public static void main(String[] args) {
-        A obj = new A();
+        ABC obj = new ABC();
         obj.show();
-        new A().show();
+        new ABC().show();
     }
 }
